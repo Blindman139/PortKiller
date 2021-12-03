@@ -9,14 +9,21 @@ This JAR contains...
 
 1) Class : Named PortKiller under application package
 2) Method : KillThePort(String port) {The murderer}
+  
+</br>
 
 **Usage:**
+
+</br>
 
 **Method (1)**
 
 Import the class and then call the method.
 
 Example:
+
+![image](https://user-images.githubusercontent.com/66406626/144656829-2af640d3-790d-4685-bcdb-5beb0c8c400f.png)
+
 
 import application.PortKiller;
 
@@ -28,7 +35,7 @@ public static void main(String[] args){
     */
 }
 
-
+</br>
 
 **Method (2)**
 
@@ -37,28 +44,34 @@ Create executable file provide port Id as argument.
 Example :
 
 Provide port id 8080 as first argument to exe
+</br></br>
 ///////////////////////////////////////////////////
-//////////////////////////////////////////////////
-**EXTRA**
+</br>
+//////////////////////////////////////////////////</br>
+**EXTRA**</br>
 Don't get limited to 8080. You can provide any substring of the address to terminate it.
 
 Example :
 
 For Processes
-  Proto  Local Address          Foreign Address        State           PID
-  TCP    0.0.0.0:135            0.0.0.0:0              LISTENING       1000
-  TCP    0.0.0.0:445            0.0.0.0:0              LISTENING       4
-  TCP    127.0.0.1:28390        0.0.0.0:0              LISTENING       4368
+![image](https://user-images.githubusercontent.com/66406626/144657013-5c1bbaab-6154-4741-8436-ab81268ec133.png)
+  
+  
   
   You can pass "127.0.0.1:28390" to terminate PID 4368
   You can even pass PID itself to terminate.
-  
-  **Danger : Never try to pass LISTENING**
+  </br>
+  **Danger :**
+  </br></br>
+  **Never try to pass "LISTENING"**
   (I never tried but if you ever pass it then tell me what happens afterwards. Contact is given below)
-  
+  </br></br>
   Mac, Linux and other OS guys... Sorry this is not for you. But it can be. So, Contact is given below.
-  
-Parth Vaghani
-parth395006vpj@gmail.com
-(Blindman)
+  </br></br>
+  </br>
+  **How to Grab me**
+  </br>
+Parth Vaghani</br>
+parth395006vpj@gmail.com</br>
+(Blindman)</br>
 
